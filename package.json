@@ -1,0 +1,16 @@
+{
+  "name": "platformer",
+  "version": "1.0.0",
+  "description": "Basic 2D platformer engine",
+  "license": "MIT",
+  "author": "Brandon Semilla <semibran@gmail.com>",
+  "main": "engine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semibran/platformer.git"
+  },
+  "dependencies": {
+    "keys": "github:semibran/keys",
+    "vector2d": "github:semibran/vector2d#v1.0.0"
+  }
+}
