@@ -1,16 +1,26 @@
 {
   "name": "platformer",
-  "version": "1.0.0",
-  "description": "Basic 2D platformer engine",
+  "version": "0.0.0",
+  "description": "platformer engine",
+  "author": "semibran",
+  "repository": "semibran/platformer",
   "license": "MIT",
-  "author": "Brandon Semilla <semibran@gmail.com>",
-  "main": "engine",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/semibran/platformer.git"
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "clean-css-cli": "^4.1.10",
+    "gh-pages": "^1.1.0",
+    "html-minifier": "^3.5.9",
+    "node-sass": "^4.7.2",
+    "postcss-cli": "^5.0.0",
+    "rollup": "^0.56.2",
+    "rollup-plugin-commonjs": "^8.3.0",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-resolve": "^3.0.3",
+    "uglify-js": "^3.3.12"
   },
   "dependencies": {
-    "keys": "github:semibran/keys",
-    "vector2d": "github:semibran/vector2d#v1.0.0"
+    "css-string": "^0.0.0"
   }
 }
