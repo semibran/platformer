@@ -9,6 +9,12 @@ import h2node from "../lib/h2node"
 const state = {
   world: {
     gravity: 0.25,
+    blocks: [
+      {
+        halfsize: [ 64, 16 ],
+        position: [ 128, 180 ]
+      }
+    ],
     actors: [
       {
         stats: {
@@ -17,7 +23,7 @@ const state = {
         },
         hitbox: {
           halfsize: [ 8, 12 ],
-          position: [ 128, 120 ],
+          position: [ 128, 60 ],
         },
         velocity: [ 0, 0 ],
         ground: null

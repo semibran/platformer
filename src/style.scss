@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .world {
@@ -9,8 +10,14 @@
   overflow: hidden;
 }
 
-.actor {
+.element {
   position: absolute;
-  background: white;
 }
 
+.element.actor {
+  background: lime;
+}
+
+.element.block {
+  background: white;
+}
