@@ -8,6 +8,9 @@ export default {
     }
     actor.velocity[0] = actor.stats.speed * delta
   },
+  stop(actor) {
+    actor.velocity[0] = 0
+  },
   jump(actor) {
     if (actor.ground) {
       actor.velocity[1] = -actor.stats.jump

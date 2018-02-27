@@ -1,5 +1,6 @@
 dependencies:
   css-string: 0.0.0
+  key-state: 0.0.0
 devDependencies:
   autoprefixer: 8.0.0
   babel-cli: 6.26.0
@@ -2240,6 +2241,10 @@ packages:
       '0': node >=0.6.0
     resolution:
       integrity: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
+  /key-state/0.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-QnJXnqBGgnw+SCY0+MO/SU6074DKcMxu+4hc82rDrQ+9kneAXvVTDAlEASrshgTOH6fIAb5mMuTOZylWwM7iqw==
   /kind-of/3.2.2:
     dependencies:
       is-buffer: 1.1.6
@@ -3916,6 +3921,7 @@ specifiers:
   css-string: ^0.0.0
   gh-pages: ^1.1.0
   html-minifier: ^3.5.9
+  key-state: ^0.0.0
   node-sass: ^4.7.2
   postcss-cli: ^5.0.0
   rollup: ^0.56.2

@@ -1,6 +1,6 @@
 import stringify from "css-string"
 
-export default (h, { world, viewport }, actions) =>
+export default (h, { state: { world, viewport } }) =>
   h("div", { class: "world",
       style: stringify({
         width: viewport.size[0] + "px",
